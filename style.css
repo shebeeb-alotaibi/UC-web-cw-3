@@ -1,0 +1,41 @@
+h1{
+font-family: monospace;
+color: orange;
+}
+
+.container{
+width: 500;
+display:flex;
+justify-content: center;
+align-items: center ;
+flex-wrap: wrap;
+
+}
+
+.box{
+width: 150;
+height: 150;
+background-color: teal;
+margin: 1px;
+border-radius: 10px;
+transition: all 0.5s;
+border: 2px solid darkkhaki;
+padding: 10px;
+    background: #EEE;
+    border: 1px solid #CCC;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+
+}
+.box:hover{
+    background-color: turquoise;
+}
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+
+}
